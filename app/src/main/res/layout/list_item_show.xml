@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/rootView"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     android:orientation="horizontal"
-    android:id="@+id/rootView"
     android:padding="12dp">
 
     <View
@@ -11,14 +12,16 @@
         android:layout_width="24dp"
         android:layout_height="48dp"
         android:background="#9c3"
-        android:visibility="gone" />
+        android:visibility="gone"
+        tools:visibility="visible" />
 
     <View
         android:id="@+id/head2"
         android:layout_width="24dp"
         android:layout_height="48dp"
         android:background="#c93"
-        android:visibility="gone" />
+        android:visibility="gone"
+        tools:visibility="visible" />
 
     <TextView
         android:id="@+id/name"
